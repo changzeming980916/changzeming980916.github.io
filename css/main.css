@@ -1,0 +1,534 @@
+     html, body {
+      position: relative;
+      height: 100%;
+    }
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+.swiper-slide.one{
+    background: url("../img/one.jpg");
+    background-size: 100% 100%;
+}
+.swiper-slide.one .oneline{
+    width: 70%;
+    height: 22%;
+    /*border: 10px solid #fff;*/
+    margin-top: 10%;
+    margin: 0 auto;
+    position: absolute;
+    top: 80px;
+}
+.swiper-slide.one .oneline h3{
+    color: #fff;
+    opacity: 0.8;
+    padding-top: 32px;
+}
+.swiper-slide.one .oneline a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 19px;
+    padding-top: 32px;
+}
+.swiper-slide.one .invite{
+    width: 70%;
+    height: 36%;
+   /* border: 7px solid #666;*/
+    position: absolute;
+    top: 320px;
+}
+.swiper-slide.one .invite img{
+    width: 100%;
+    height: 77%;
+}
+.swiper-slide.one .invite p{
+    font-size: 18px;
+    color: saddlebrown;
+    opacity: 0.4;
+}
+/*第二屏css代码开始*/
+.swiper-slide.two{
+    background: url("../img/school-img/schoolmate.jpg");
+    background-size: 100% 100%;
+}
+.swiper-slide.two .weizi{
+    width: 70%;
+    height: 80%;
+   /* border: 5px solid #000;*/
+    margin: 0 auto;
+}
+.swiper-slide.two .weizi p{
+    font-size: 25px;
+    color: blue;
+    opacity: 0.8;
+}
+.swiper-slide.two .weizi p:nth-of-type(2){
+    position: absolute;
+    bottom: 60px;
+    left: 130px;
+}
+/*第二屏css代码结束*/
+
+
+
+/*第三屏css代码开始*/
+.swiper-slide.three{
+    background: #ccc;
+   
+} 
+.swiper-slide.three .pic3_1{
+    width: 70%;
+    height: 30%;
+    border: 8px solid #fff;
+    opacity: 0.6;
+    position: absolute;
+    top: 40px;
+}
+.swiper-slide.three .pic3_1 img{
+    width: 100%;
+    opacity: 1;
+}
+.swiper-slide.three .pic3_2{
+    width: 70%;
+    height: 30%;
+    border: 8px solid #fff;
+    opacity: 0.6;
+    position: absolute;
+    top: 246px;
+}
+.swiper-slide.three .pic3_2 img{
+    width: 100%;
+    opacity: 1;
+}
+.swiper-slide.three .pic3_3{
+    width: 70%;
+    height: 24%;
+    border: 8px solid #fff;
+    opacity: 0.6;
+    position: absolute;
+    top: 455px;
+    overflow: hidden;
+}
+.swiper-slide.three .pic3_3 img{
+    width: 100%;
+    opacity: 1;
+}
+
+/*第三屏css代码结束*/
+/*第四屏代码开始*/
+.swiper-slide.four{
+    background: #eee;
+}
+.swiper-slide.four .pic4_1{
+    width: 70%;
+    height: 30%;
+    position: absolute;
+    right: 34px;
+    top: 36px;
+    border:8px solid #fff;
+    opacity: 0.7;
+}
+.swiper-slide.four .pic4_1 img{
+     width: 100%;
+     height: 100%;
+}
+.swiper-slide.four .pic4_2{
+    width: 70%;
+    height: 25%;
+    position: absolute;
+    right: 83px;
+    top: 464px;
+    border: 8px solid #fff;
+    opacity: 0.7;
+}
+.swiper-slide.four .pic4_2 img{
+     width: 100%;
+     height: 100%;
+}
+.swiper-slide.four .pic4_3{
+    width: 70%;
+    height: 25%;
+    position: absolute;
+    right: 50px;
+    top: 266px;
+    border: 8px solid #fff;
+    opacity: 0.7;
+}
+.swiper-slide.four .pic4_3 img{
+     width: 100%;
+     height: 100%;
+}
+/*第四屏代码结束*/
+
+/*第五屏开始*/
+.swiper-slide.five{
+     background: ;  
+}
+.swiper-slide.five .wenzi{
+    width: 70%;
+    height: 30%;
+   /* border: 2px solid;*/
+    position: absolute;
+    top: 26px;
+    font-size: 16px;
+}
+.swiper-slide.five .wenzi p{
+    color:darkgoldenrod;
+}
+.swiper-slide.five .wenzi p:nth-of-type(2){
+    margin-top: 23px;
+}
+.swiper-slide.five .wenzi p:nth-of-type(3){
+    margin-top: 35px;
+}
+.swiper-slide.five .wenzi p:nth-of-type(1){
+    margin-top: 25px;
+}
+.swiper-slide.five .pi{
+    width: 70%;
+    height: 40%;
+    position: absolute;
+    top: 261px;
+}
+.swiper-slide.five .pi h2{
+    width: 70%;
+    height: 10%;
+    text-align: center;
+    position: absolute;
+    left: 40px;
+}
+.swiper-slide.five .pi .pic4{
+    width: 100%;
+    height: 85%;
+    position: absolute;
+    top: 80px;
+    border: 7px solid #ccc;
+    overflow: hidden;
+}
+.swiper-slide.five .pi .pic4 img{
+    width: 100%;
+    height: 100%;
+}
+/*第五屏结束*/
+/*第六屏开始*/
+.swiper-slide.six{
+    background: #ccc;
+}
+.swiper-slide.six .shifan{
+    width: 30%;
+    height: 30%;
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.swiper-slide.six .shifan img{
+    width: 212px;
+    height: 200px;
+    border: 6px solid #fff;
+    opacity: 0.7;
+    border-radius: 50%;
+}
+.swiper-slide.six .xiangmu{
+    width: 70%;
+    height: 40%;
+    border: 5px solid #fff;
+    position: absolute;
+    top: 44%;
+    right: 8%;
+    opacity: 0.7;
+}
+.swiper-slide.six .xiangmu img{
+    width: 100%;
+    height: 100%;
+}
+/*第六屏结束*/
+
+/*第七屏开始*/
+
+.swiper-slide.seven{
+    background: #eee;
+    opacity: 0.7;
+}
+.swiper-slide.seven .article{
+    width: 70%;
+    height: 80%;
+    margin: 0 auto;
+    /*border: 2px solid;*/
+}
+.swiper-slide.seven .article p{
+    font-size: 16px;
+    color: darkgoldenrod;
+    margin-top: 65px;
+}
+/*第七屏结束*/
+/*第八屏开始*/
+.swiper-slide.eight{
+    background: #eee;
+}
+.swiper-slide.eight .paragraph{
+    width: 70%;
+    height: 100%;
+    /*border: 1px solid #f40;*/
+}
+.swiper-slide.eight .paragraph p{
+    font-size: 15px;
+    margin-top: 18px;
+    line-height: 35px;
+}
+.swiper-slide.eight .main{
+    width: 100%;
+    height: 60%;
+    border: 8px solid;
+}
+.swiper-slide.eight .main h3{
+    color: #666;
+}
+.swiper-slide.eight .main .html-img{
+    width: 70%;
+    height: 40%;
+}
+.swiper-slide.eight .main .html-img img{
+    width: 142%;
+    height: 208%;
+    /*overflow: hidden;*/
+}
+/*第八屏结束*/
+
+/*第九屏开始*/
+.swiper-slide.nine{
+    background: #eee;
+}
+.swiper-slide.nine .nine-p1{
+    font-size: 14px;
+    width: 70%;
+    height: 10%;
+    position: absolute;
+    top: 10%;
+}
+.swiper-slide.nine .nine-p2{
+    width: 76%;
+    position: absolute;
+    bottom: 63px;
+    height: 9%;
+    font-size: 14px;
+}
+
+.swiper-slide.nine .main{
+    width: 80%;
+    height: 53%;
+    border: 6px solid #000;
+}
+.swiper-slide.nine .main h3{
+    color: #666;
+}
+.swiper-slide.nine .main .html-img{
+     width: 100%;
+    height: 80%;
+}
+.swiper-slide.nine .main .html-img img{
+    width: 100%;
+    height: 100%;
+}
+/*第九屏结束*/
+/*第十屏开始*/
+.swiper-slide.ten{
+    background: #eee;
+}
+.swiper-slide.ten .ten-p1{
+    width: 70%;
+    height: 5%;
+    position: absolute;
+    top: 10%;
+    font-size: 14px;
+    color: #333;
+}
+.swiper-slide.ten .third{
+    width: 70%;
+    height: 70%;
+    border: 6px solid #ffff;
+    margin-top: 16%;
+}
+.swiper-slide.ten .third h3{
+    font-size: 15px;
+    color: #666;
+}
+.swiper-slide.ten .third .oneimg{
+    width: 100%;
+    height: 40%;
+}
+.swiper-slide.ten .third .oneimg img{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide.ten .third .twoimg{
+    width: 100%;
+    height: 40%;
+    margin-top: 30px;
+}
+.swiper-slide.ten .third .twoimg img{
+    width: 100%;
+    height: 100%;
+}
+/*第十屏结束*/
+/*第十一屏开始*/
+.swiper-slide.eleven{
+    background: #eee;
+}
+.swiper-slide.eleven .threeimg{
+    width: 70%;
+    height: 40%;
+    border: 5px solid #fff;
+    opacity: 0.7;
+    top: 4%;
+    position: absolute;
+}
+.swiper-slide.eleven .threeimg img{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide.eleven .eleven-paragraph{
+    width: 70%;
+    height: 10%;
+    color: #666;
+}
+.swiper-slide.eleven .eleven-paragraph p{
+    font-size: 14px;
+    color: deepskyblue;
+}
+.swiper-slide.eleven .eleven-paragraph h3{
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+.swiper-slide.eleven .eleven-paragraph .p2{
+    font-size: 15px;
+    color: sienna;
+    line-height: 1.9;
+}
+/*第十一屏结束*/
+/*第十二屏开始*/
+.swiper-slide.thirth{
+    background: #eee;
+}
+.swiper-slide.thirth form{
+    width: 91%;
+    height: 50%;
+    position: absolute;
+    top: 45px;
+}
+
+.swiper-slide.thirth form .form-group{
+    width: 70%;
+    height: 17%;
+    position: relative;
+    left: 13%;
+    top: 6%;
+}
+.swiper-slide.thirth form .form-group h6{
+    float: left;
+    font-size: 13px;
+    margin: 0;
+}
+.swiper-slide.thirth form .form-group input{
+    float: right;
+}
+.swiper-slide.thirth form button{
+    width: 20%;
+    height: 10%;
+    background: green;
+    border: 1px solid #000;
+    color: #fff;
+    letter-spacing: 3px;
+    position: absolute;
+    left: 42%;
+    top: 113%;
+}
+.swiper-slide.thirth .watching{
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    top: 77%;
+}
+.swiper-slide.thirth .watching h3{
+    font-size: 28px;
+    letter-spacing: 21px;
+    color: blue;
+    opacity: 0.5;
+}
+/*第十二屏结束*/
+.swiper-button-next{
+    background-image: url("../img/whitearrow.jpg");
+    opacity: 0.8;
+    right: 29px;
+    top: 350px;
+    animation: run 5s linear infinite;
+}
+@keyframes run{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+
+
+#music{
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    top: 2%;
+    right: 3%;
+    z-index: 9;
+    background: #000;
+    border-radius: 50%;
+    opacity: 0.8;
+ }
+#music .music_bg{
+    width: 60px;
+    height: 60px;
+}
+#music .music_tu{
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    padding: 8px;
+    top: 0;
+    animation: move 1s infinite;
+}
+@keyframes move{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
